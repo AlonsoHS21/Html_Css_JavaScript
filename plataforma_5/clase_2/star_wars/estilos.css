@@ -1,0 +1,43 @@
+body img{
+    width: 50em;
+    height: 40em;
+}
+#title-principal{
+    text-align: center;
+    font-size: 4em;
+}
+.color-imperio{
+    background-color: red;
+}
+.color-rebelds{
+    background-color: blue;
+}
+#darth-size{
+    font-size: 40px;
+}
+#luke-italic{
+    font-style: italic;
+}
+.trooper-border{
+    border-style: dashed;
+    border-radius: 5px;
+    width: 30em;
+}
+.trooper-space{
+    letter-spacing: 5px;
+}
+.support-class{
+    text-align: center;
+}
+.ships-mayus{
+    text-transform: uppercase;
+}
+#darth-span{
+     text-transform: uppercase;
+}
+#luke-span{
+    text-transform: uppercase;
+}
+#original-span{
+    font-weight: bold;
+}

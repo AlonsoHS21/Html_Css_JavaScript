@@ -1,0 +1,30 @@
+h1{
+    text-align: center;
+    font-size: 60px;
+}
+h3{
+    text-align: center;
+    font-size: 40px;
+}
+p{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Bangers', cursive;
+}
+img{
+    width: 30%;
+}
+.opcion{
+    font-family: 'Bangers', cursive;
+    font-size: 30px;
+}
+body{
+    background-image: url(https://3dwarehouse.sketchup.com/warehouse/v1.0/publiccontent/721e3bb4-f668-4f83-90d4-705701fb0b1d);
+    background-size: cover;
+}
+#opciones{
+    text-align: center;
+    font-family: 'Bangers', cursive;
+    font-size: 40px;
+    color: white;
+}
