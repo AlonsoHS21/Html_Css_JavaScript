@@ -9,10 +9,9 @@
 
     <h1>Bienvenido a PetBook</h1>
     <p>
-        Esta es una red social para mascotas, solamente tenes que crearte una cuenta y 
-        podras subir tus fotos de tu o tus mascotas, a disfrutar!!!
+        Esta es una red social para mascotas, ingresa los datos de tu mascota y a DISFRUTAR!!!
     </p>
-    <form>
+    <form action="https://formspree.io/f/AlonsoHS20@hotmail.com" method="post">
         <label for="campo_nombre">Nombre de tu mascota: </label>
         <input type="text" name="nombre_mascota" placeholder="Nombre de tu mascota" id="campo_nombre" required>
 
@@ -44,9 +43,14 @@
             <option value="conejo">Conejo</option>
         </select>
 
-
-        
         <label>
+            Contanos cómo es tu mascota:
+            <textarea rows="10" cols="40" placeholder="Ingresa una descripcion de tu mascota"></textarea>
+        </label>
+        
+        </textarea>
+
+        <label> <!-- Esto va a lo ultimo -->
             <input type="checkbox" name="bases_y_condiciones" value="acepta">
             Acepto las bases y condiciones 
         </label>
