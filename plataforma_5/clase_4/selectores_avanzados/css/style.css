@@ -54,3 +54,14 @@ label{
     font-size: 400%;
     background-color: red;
 }
+
+/* Ejercicio Pseudo selectores */
+div:nth-of-type(5n) p:hover{
+    color: red;
+}
+#boton-active:active{
+    background-color: yellow;
+}
+div:nth-of-type(5n) input[type="text"]:focus{
+    border: 4px solid green;
+}
