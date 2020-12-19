@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <form>
+        <!-- Hay 2 maneras de usar un label -->
+        <label> <!-- Envolviendo el input -->
+             <!-- Es una mejor practica usar el tag label para el rank de google -->
+            Nombre de Usuario:
+            <input type="text" name="nombre" placeholder="Nombre de Usuario">
+        </label>
+        <label for="campo_edad">Edad: </label> <!-- O asginarle un id y con el atributo for linkearlo al input -->
+        <input type="number" name="edad" placeholder="Edad" id="campo_edad">
+        <input type="password" name="contraseña" placeholder="Contraseña">
+      
+        <input type="submit">
+      </form>
+
+</body>
+</html>
