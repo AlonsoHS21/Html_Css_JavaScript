@@ -1,0 +1,56 @@
+body{
+    background-color: #326273;
+}
+h1{
+    background-color: rgb(227,151,116);
+}
+h2{
+    background-color: #EEEEEE;
+}
+li{
+    color: chartreuse;
+}
+#bordeado{
+    border: 3px solid red;
+}
+.aloha{
+    background-color: #BFAB25;
+}
+input{
+    border: 2px dashed lime;
+}
+div p{
+    font-size: 300%;
+}
+input[type="text"]{ 
+    background-color: yellow;
+}
+/* Hacé que los <a> que fueron visitados se pongan color verde */
+a:visited{ 
+    color: greenyellow;
+}
+/* Dale un fondo azul a los <p>'s adentro del tercer <div> (buscá el selector :nth-of-type) */
+div:nth-of-type(3n) p{ 
+    background-color: blue;
+}
+/* Dale un borde blanco de 4px al segundo <p> dentro del tercer <div> */
+div:nth-of-type(3n) p:nth-of-type(2n){ 
+    border: 4px solid white;
+}
+/* Hacé que el <span> dentro del tercer <div> tenga fondo blanco */
+div:nth-of-type(3n) span{
+    background-color: white;
+}
+/* Hacé que todos los checkboxes que están clickeados tengan un margen a la izquierda */
+ li input[type="checkbox"]:checked{
+    margin-left: 60px;
+}
+/* Hacé que todos los tags <label> estén en MAYÚSCULA usando CSS (sin cambiar a mano el html, no hagas trampa). Tip: mayúscula en inglés se dice UPPERCASE */
+label{
+    text-transform: uppercase;
+}
+/* Hacé que la primera letra del elemento con id 'ultimo' tenga un font-size de 400% y background rojo */
+#ultimo::first-letter{
+    font-size: 400%;
+    background-color: red;
+}
