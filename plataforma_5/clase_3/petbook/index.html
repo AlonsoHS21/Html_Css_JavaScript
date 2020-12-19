@@ -17,7 +17,7 @@
         <input type="text" name="nombre_mascota" placeholder="Nombre de tu mascota" id="campo_nombre" required>
 
         <label>Edad:
-            <input type="number" name="edad" placeholder="Edad de tu mascota" required>
+            <input type="number" name="edad" placeholder="Edad de tu mascota" max="15" required>
         </label>
 
         <label for="campo_email">Email:</label>
@@ -30,6 +30,11 @@
         <label for="campo_color">Color de tu mascota: </label>
 
         <input type="color" name="color" placeholder="Ingresa el color de tu mascota" id="campo_color" required>
+
+        <label for="campo_macho">Macho:</label>
+        <input type="radio" name="genero" value="Macho" id="campo_macho">
+        <label for="campo_hembra">Hembra:</label>
+        <input type="radio" name="genero" value="Hembra" id="campo_hembra">
 
         <input type="submit" name="enviar">
     </form>
