@@ -1,0 +1,31 @@
+div{
+    height: 200px;
+    border: 3px solid red;
+}
+#uno{
+    position: static;
+    background-color: grey;
+}
+#dos{
+    position: relative;
+    top:50px;
+    left: 100px;
+    background-color: orange;
+}
+#tres{
+    position: fixed;
+    bottom: 50px;
+    right: 100px;
+    background-color: lime;
+    width: 25%;
+    z-index: -1;
+}
+#cuatro{
+    position: relative;
+}
+#cinco{
+    position: absolute;
+    background-color: yellow;
+    width: 25%;
+    height: 25%;
+}
