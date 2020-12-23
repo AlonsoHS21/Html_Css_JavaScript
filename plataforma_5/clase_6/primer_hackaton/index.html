@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CDN 5.0.0 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+    <!-- Hoja de estilos-->
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    
+    <title>Hackaton</title>
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg sticky-top navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#" id="name-typography">Alonso Huarcaya</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#portfolio">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#acerca_de_mi">Acerca de mi</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#formulario">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+        <div class="header fullscreen">
+            <img src="https://assets.stickpng.com/images/585e4bf3cb11b227491c339a.png" alt="anonymous" class="img-fluid image-rounded">
+            <h1 class="display-5">Alonso Huarcaya</h1>
+            <p class="display-6">Programador Web Full Stack</p>
+        </div>
+
+        <div class="container fullscreen" id="portfolio">
+            <h1>Portfolio</h1>
+            <hr>
+            <div class="row">
+                <div class="col-sm-4">
+                    <img src="https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="" class="img-thumbnail">
+                </div>
+                <div class="col-sm-4">
+                    <img src="https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="" class="img-thumbnail">
+                </div>
+                <div class="col-sm-4">
+                    <img src="https://images.pexels.com/photos/276452/pexels-photo-276452.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="" class="img-thumbnail">
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container fullscreen" id="acerca_de_mi">
+            <h1>Acerca de mi</h1>
+            <hr>
+            <p class="text-center">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus aliquam eos dolorum enim est, iste delectus quidem necessitatibus
+                 qui voluptatum cum quasi repellat obcaecati dignissimos non illum amet veniam corporis tempore consequuntur laborum tempora perferendis 
+                 sapiente iusto. Neque deleniti cum laborum amet necessitatibus aperiam perspiciatis maiores quasi error sequi ipsa rerum rem fugiat,
+                 dolorem nesciunt quaerat placeat in odit aliquid hic architecto reiciendis ipsam. Illo, cumque inventore? Nulla tempora quo optio ab mollitia blanditiis ut deleniti,
+                 reiciendis culpa officia numquam, quis doloremque, laboriosam nihil. Libero possimus, 
+                distinctio iure esse quo suscipit. In provident pariatur asperiores soluta, mollitia ipsa? Tempore, repellat!
+            </p>
+        </div>
+
+        <div class=" container fullscreen" id="formulario">
+            <h1>Contacto</h1>
+            <hr>
+            <br><br>    
+            <form   action="https://formspree.io/f/xjvppbpr" method="POST">
+                <div class="mb-3">
+                    <label for="exampleInputName" class="form-label">Nombre/s:</label>
+                    <input type="text" class="form-control" id="exampleInputName" name="nombre" placeholder="Nombres">
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleInputLastName" class="form-label">Apellido/s:</label>
+                    <input type="text" class="form-control" id="exampleInputLastName" name="apellido" placeholder="Apellidos">
+                  </div>
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label">Contraseña:</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1" name="contrasenia" placeholder="Contraseña">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Correo Electronico:</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="email" placeholder="example@gmail.com">
+                    <div id="emailHelp" class="form-text">Nunca compartiremos su correo electrónico con nadie más.</div>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputCommentary" class="form-label">Comentario:</label><br>
+                    <textarea name="comentario" id="exampleInputCommentary" cols="182" rows="5" placeholder="Ingrese su comentario" class="form-control"></textarea>
+                  </div>
+                <div class="mb-3 form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1" name="bases_y_condiciones">Acepto las bases y condiciones</label>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+              </form>
+        </div>
+        
+        <footer>
+          <div class="main-content">
+            <div class="left box">
+              <h2>lorem</h2>
+              <div class="content">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Aliquam architecto repudiandae itaque corporis,
+                  est mollitia fugiat distinctio officiis ad expedita.</p>
+              </div>
+            </div>
+        
+            <div class="center box">
+              <h2>Direccion</h2>
+              <div class="content">
+                <div class="container">
+                  <span><i class="fas fa-map-marker-alt"></i> Buenos Aires, San Isidro, Boulogne Sur Mer</span>
+                </div>
+                <div class="container">
+                    <a href="mailto:AlonsoHS20@hotmail.com?Hackaton%20Plataforma%205" id="email"><i class="fas fa-envelope-open"></i></a>
+                    <label for="email">AlonsoHS20@hotmail.com </label> 
+                </div>
+                <div class="container">
+                  <span><a href="https://api.whatsapp.com/send?phone=541123390582&text=hola,%20como,%20estas?" target="_blank"><i class="fab fa-whatsapp-square"></i></a> Whatsapp</span>
+                </div>
+              </div>
+            </div>
+        
+            <div class="right box">
+              <h2>Redes sociales</h2>
+              <div class="content">
+                <p>Aca podemos estar en contacto</p>
+                <div class="social">
+                  <a href="https://github.com/AlonsoHS21" target="_blank"><i class="fab fa-github"></i></a>
+                  <a href="https://www.linkedin.com/in/alonso-huarcaya-934300188/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </footer>
+
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-sm-12 col-md-12">
+                <p><i class="far fa-copyright"></i> Todos los derechos reservados</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 
+          <button type="button" class="btn btn-secondary" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="right" data-bs-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
+            Popover on right
+         </button>
+          <p class="icons-modify"><i class="far fa-copyright"></i> Todos los derechos reservados</p>
+        </div> -->
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+</body>
+</html>

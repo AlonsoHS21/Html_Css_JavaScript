@@ -1,0 +1,79 @@
+ #name-typography {
+    font-family: 'Lobster', cursive;
+    font-size: 35px;
+}
+.navbar-nav a {
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+}
+.header{
+    text-align: center;
+    margin: 8em 2em;
+    font-family: 'Architects Daughter', cursive;
+}
+.image-rounded {
+        border-radius: 100px;
+        width: 15%;
+}
+.fullscreen {
+    min-height: 90vh;
+}
+.container h1 {
+    text-align: center;
+    font-family: 'Architects Daughter', cursive;
+}
+.row img{
+    width: 90%;
+    padding: 5px;
+    margin: 20% 2%;
+}
+.row img:hover{
+    transform: scale(1.1);
+}
+.text-center{
+    margin: 5em 5em;
+}
+/* Footer */
+footer {
+    bottom: 0px;
+    width: 100%;
+    background: #111;
+    color: white;
+}
+footer a{
+    color: white;
+}
+footer a:hover{
+    color: white;
+}
+.main-content {
+    display: flex;
+}
+.main-content .box {
+    flex-basis: 50%;
+    padding: 1em 5em;
+}
+.box  h2{
+    font-size: 1.5;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.box .content {
+    margin: 1% auto;
+}
+.right .content .social a {
+    padding: 0 1%;
+}
+.center .content .container {
+    padding: 1% 0px;
+}
+
+/* copyright */
+.container-fluid .row {
+    background-color: #111;
+    color: white;
+}
+.container-fluid .row p {
+    margin: 2em 48em;
+}
+
