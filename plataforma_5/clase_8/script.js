@@ -67,3 +67,94 @@ else {
     alert("Es false")
 }
 */
+
+//Mis primeras condicionales
+// 1 -
+// if(true){alert("Esta sentencia siempre es true")}
+// 2 -
+//if(false){alert("Esta sentencia siempre es true")}
+// 3 - 
+/*
+let resp = prompt("¿Como te sientes?")
+if(resp == "triste"){console.log("sentate bien :) ")}
+*/
+// 4 - 
+/*
+let resp = prompt("¿Cual es el numero secreto?")
+if(resp != 4){alert("numero equivocado")}
+*/
+// 5- 
+/*
+let cont = prompt("Ingrese su contraseña")
+if(cont = "12345"){window.location = "http://www.google.com"}
+*/
+
+// Par o impar
+/*
+let num = prompt("Ingrese un numero")
+if((num % 2) == 0){alert("El numero es par")}
+else {alert("El numero es impar")}
+
+//¿Me puedo jubilar? // lo hice mas dificil a proposito
+// Parte 1
+/*
+let nac = prompt("Ingrese la año de nacimiento") // en el caso de que no quiera ingresar su edad
+var fecha = new Date();
+var anioActual = fecha.getFullYear();
+let res = anioActual - nac
+if(res == 60){
+    alert("Te podes jubilar")
+}
+else { 
+res = 60 - res
+alert("Te faltan " + res + " años para poder jubilarte")
+}
+*/
+// Parte 2
+/*
+let nac = prompt("Ingrese la año de nacimiento") // en el caso de que no quiera ingresar su edad
+var fecha = new Date();
+var anioActual = fecha.getFullYear();
+let res = anioActual - nac
+if(res == 60 || res == 65){
+    alert("Te podes jubilar")
+}
+else { 
+res = 60 - res
+alert("Te faltan " + res + " años para poder jubilarte en caso de que seas mujer y en caso de que seas hombre te faltan " + (res + 5) + " años para jubilarte")
+}
+*/
+
+//Agrega Caminos
+/*
+let edad = prompt("Ingrese su edad.")
+let poi = edad % 2
+if(edad < 0 ){
+    alert("Error, su edad no es válida")
+}
+if(edad < 18) {
+alert("No puede pasar al bar.")
+} 
+else if(edad < 21){
+alert("Puede pasar al bar, pero no puede tomar alcohol.")
+} 
+else if(edad == 21 && !(poi == 0)){ // es impar (distinto de cero edad % 2 != 0)
+alert("Puede pasar al bar y tomar alcohol, felicidades por cumplir 21 años, Sabias que tu edad es impar?")
+}
+else{
+    alert("Puede pasar al bar y tomar alcohol.")
+}
+*/
+
+//Adivina el numero
+/*
+let numeroSecreto = 4
+let numeroIngesado = prompt("Cual es el numero secreto?")
+if(Number(numeroIngesado) >= 0 ){ //verifico primero si es un numero valido
+    if(numeroIngesado == numeroSecreto){alert("Correcto, es el numero secreto :) ")}
+    else if(numeroIngesado < numeroSecreto){alert("Incorrecto, el numero secreto es mayor")}
+    else if(numeroIngesado > numeroSecreto){alert("Incorrecto, el numero secreto es menor")}
+    else{alert("De alguna forma llegaste aca entonces te doy un carita :) ")}
+}
+else {alert("Error, no es un numero valido")}
+*/
