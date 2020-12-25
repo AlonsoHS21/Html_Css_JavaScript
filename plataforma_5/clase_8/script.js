@@ -158,3 +158,54 @@ if(Number(numeroIngesado) >= 0 ){ //verifico primero si es un numero valido
 }
 else {alert("Error, no es un numero valido")}
 */
+
+//Contenido Bonus: switch
+//Ejercicio 1
+/*
+let textoIngresado = prompt("Ingrese casa o perro o arbol o genio para traducir al ingles")
+textoIngresado = textoIngresado.toLowerCase(); //para evitar los problemas de mayusculas y minusculas
+switch(textoIngresado)
+{
+    case 'casa':
+        alert("house");
+    break
+    case 'perro':
+        alert("dog");
+    break
+    case 'arbol':
+        alert("tree")
+    break
+    case 'genio':
+        alert("genius")
+    break
+    default: 
+        alert("Palabra ingresada incorrecta")
+    break
+}
+*/
+//Ejercicio 2
+/*
+let valoracion = prompt("Ingrese su valoracion: \n\n 1- Muy Mala \n 2 - Mala \n 3 - Mediocre \n 4 - Buena \n 5 - Muy Buena")
+switch(parseInt(valoracion)) //para que no ingrese un numero negativo
+{
+    case 1:
+        alert("Calificaste la película como Muy Mala. Lo lamentamos muchisimo")
+    break
+    case 2:
+        alert("Calificaste la pelicla como Mala, Lo lamentamos mucho")
+    break
+    case 3:
+        alert("Calificaste la pelicula como Mediocre, Lamentamos que no haya sido de su agrado")
+    break
+    case 4:
+        alert("Calificaste la pelicula como Buena, Muchas gracias por su valoracion")
+    break
+    case 5:
+        alert("Calificaste la pelicula como Muy Buena, Muchas gracias el feedback es muy importante para nosotros")
+    break
+    default: 
+        alert("Numero ingresado incorrectamente " + valoracion)
+    break
+}
+alert("Muchas gracias por su visita")
+*/
